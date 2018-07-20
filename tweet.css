@@ -1,0 +1,44 @@
+/*@media screen and (max-width: 1024px) {
+//used for smaller screens
+}*/
+
+.app-layout {
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 50vh 50vh;
+}
+
+.container {
+	text-align: center;
+	color: white;
+
+}
+
+.tweets, 
+.replies,
+.search,
+.messages {
+	font-weight: 700;
+
+}
+
+.tweets {
+	background-color: turquoise;
+	
+	
+
+}
+
+.replies {
+	background-color: yellow;
+}
+
+.search {
+	background-color: grey;
+}
+
+.messages {
+	background-color: blue;
+}
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	h1 {
+		border: 1px solid #000;
+		padding: 0;
+		margin: 20px auto 40px auto;
+		border-radius: 3px;
+	}
+
+		header menu {
+			display: none;
+			
+		}
+		article:hover menu {
+			display: inline;
+		}
+
+	</style>
+	<script type="text/javascript">
+		function shows() {
+			alert("Edit");
+		}
+	</script>
+</head>
+<body>
+<div>
+	<article>
+		<header>
+			<h1>Article</h1>
+			<menu>
+			<button onclick="shows()">Edit</button> <button> Delete</button>
+			</menu>
+		</header>
+	</article>
+</div>
+
+</body>
+</html>

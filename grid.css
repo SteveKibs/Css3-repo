@@ -1,0 +1,58 @@
+	.app-layout {
+	display: grid;
+	grid-template-columns: 100px 100px 100px ;
+	grid-template-rows: 100px 100px 100px;
+	padding: 10px;
+}
+
+.b {
+	background-color: orange;
+	grid-area: 3 / 3/ 4 / 4;
+	
+	padding: 10px;
+	text-align: center;
+	border: 5px solid white;
+}
+
+.c {
+	background-color: green;
+	grid-row: 1 / span 2;
+	grid-column: 1 / span 2;
+	/*grid-area: 2 / 2 / 4 / 4;*/
+	border: 5px solid white;
+
+}
+
+.d {
+	background-color: purple;
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;	border: 5px solid white;
+}
+
+.e {
+	background-color: pink;
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;	border: 5px solid white;
+}
+
+.f {
+	background-color: blue;
+	grid-column: 1 / 2;
+	grid-row-start: 3;
+	grid-row-end: 4;border: 5px solid white;
+}
+
+.a {
+	background-color: red;
+	grid-column: 3 / 4
+	grid-row: 1 / 2;
+	border: 5px solid white;
+}
+/*
+.g {
+	background-color: yellow;
+	grid-column: 1 / 4;
+	grid-row: 4 / 5;
+	border: 5px solid white;
+}
+*/

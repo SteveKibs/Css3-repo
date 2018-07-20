@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>border IMage</title>
+	<style type="text/css">
+		div {
+			color: white;
+			border: 15px solid transparent;
+			width: 250px;
+			padding: 10px 20px;
+		}
+		#round {
+			-webkit-border-image: url(photo.jpg) 30 30 round;
+		}
+
+		#stretch {
+			-webkit-border-image: url(photo.jpg) 30 30 stretch;
+		}
+	</style>
+</head>
+<body>
+<div id="round">Here, the image is tiled (repeated) to fill the area <br></div>
+<div id="stretch">Here, the image is stretched to fill the area</div>
+	
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>highlight required fields</title>
+    <link rel="stylesheet" href="">
+    <script type="text/javascript">
+        var loginAlert = document.getElementById("email");
+        //loginAlert = loginAlert.value;
+        alert(loginAlert);
+    </script>
+    <style type="text/css">
+    #submit {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 10px;
+        font-size: 2em;
+        color: blue;
+        border: 1px solid grey;
+        cursor: pointer;
+    }
+    #widget {
+            width: 50%;
+
+    }
+    .login {
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        color: #fff;
+        border: 1px solid rgba(255,55, 00, 0.4);
+        border-radius: 5.5px;
+        text-align: center;
+        font: 1em bold  Georgia, sans-serif;
+        cursor: pointer;
+        background-color: #ff9900;
+
+    }
+    .login:hover {
+        background-color: #00cfff;
+    }
+    #submit:hover {
+        color: red;
+        border: 1px solid grey;
+    }
+
+        input:required {
+            outline: 2px solid lightblue;
+        }
+        /* When the field contains a valid email address*/
+        input[type="email"]:valid {
+            border-color: #9dbf41;
+        }
+        /* When the contents are not a valid email address*/
+        input[type="email"]:invalid {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+     <form name="sendForm" action="" method="get" accept-charset="utf-8">
+            <label for="field-name">Name: </label><input type="text" name="field-name" value="" required>
+        </br></br><label for="email">Email:</label>
+        <input type="email" id="email" name="" required>
+        <input type="submit" id="submit">
+        <div id="widget">
+            <div class="login">
+            Login
+        </div>
+        <div class="login">
+            Signup
+        </div>
+        </div>
+
+
+
+        </form>
+
+
+    </div>
+
+</body>
+</html>

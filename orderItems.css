@@ -1,0 +1,40 @@
+.container {
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-gap: 10px;
+}
+
+.c {
+	background-color: red;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.e {
+	background-color: orange;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	
+}
+
+.b, .j {
+	background-color: yellow;
+	order: 2;
+}
+
+.a, .i {
+	background-color: green;
+	order: 3;
+}
+.d {
+	background-color: blue;
+}
+
+.f {
+	background-color: indigo;
+}
+
+.h {
+	background-color: violet;
+}

@@ -1,0 +1,23 @@
+h1 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #9db741;
+	text-align: justify;
+}
+.container p,  h1 {
+	color: red;
+}
+h2 {
+	color: #00ff00;
+}
+
+p {
+	font-family: "Comic Sans Ms";
+	text-align: justify;
+	color: yellow;
+}
+#para {
+	color: blue;
+	text-align: center;
+	font-size: 2em;
+	cursor: pointer;
+}
